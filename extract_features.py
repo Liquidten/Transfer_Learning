@@ -72,7 +72,7 @@ for split in (config.TRAIN, config.TEST, config.VAL):
             # extracted features
             vec = ",".join([str(v) for v in vec])
             csv.write("{},{}\n".format(label, vec))
-        # close the CSV file
+    # close the CSV file
     csv.close()
     # serialize the label encoder to disk
     f = open(config.LE_PATH, "wb")
