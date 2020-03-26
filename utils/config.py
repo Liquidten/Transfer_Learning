@@ -13,7 +13,7 @@ VAL = "validation"
 # initialize the list of class label names
 CLASSES = ["non_food", "food"]
 # set the batch size
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 # initialize the label encoder file path and the output directory to
 # where the extracted features (in CSV file format) will be stored
 LE_PATH = os.path.sep.join(["output", "le.cpickle"])
