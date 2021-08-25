@@ -6,7 +6,7 @@ ORIG_INPUT_DATASET = "Food-5K"
 # our images after computing the training and testing split
 BASE_PATH = "./dataset"
 # define the names of the training, testing, and validation
-# directories
+# directories for file save
 TRAIN = "training"
 TEST = "evaluation"
 VAL = "validation"
